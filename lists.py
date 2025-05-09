@@ -9,7 +9,7 @@ def remove_elements (lista):
 	elif len(lista)==5:
 		del nuevalista [4]
 		del nuevalista [0]
-	elif len(lista)>=1 and len(lista)<=3:
+	elif len(lista)>=1 and len(lista)<=4:
 		del nuevalista [0]
 	return nuevalista
 
