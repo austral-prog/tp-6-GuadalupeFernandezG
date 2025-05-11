@@ -61,4 +61,4 @@ def list_of_lists(list_of_lists_to_modify):
 		lista2=lista2[1:]
 		return lista2
 	lista3=lista3[-2:]
-	return lista1, lista2, lista3
+	return [lista1, lista2, lista3]
