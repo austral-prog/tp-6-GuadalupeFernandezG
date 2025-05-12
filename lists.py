@@ -42,15 +42,16 @@ def list_of_lists(list_of_lists):
         lista3 = list_of_lists[2]
     elif len(list_of_lists) < 3:
         return "la lista no tiene tres listas"
+   
     if len(lista1) >= 2:
         lista1 = lista1[0:2]
     elif len(lista1) < 2:
         lista1 = lista1[0:1]
-        return lista1
+               
     if len(lista2) >= 4:
         lista2 = lista2[1:4]
     elif len(lista2) < 4:
         lista2 = lista2[1:]
-        return lista2
+       
     lista3 = lista3[-2:]
-    return lista1, lista2, lista3
+    return [lista1, lista2, lista3]
